@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+exo 1
+.enfant{
+background-color: purple;
+width: 100px;
+height: 100px;
+position: absolute;
+z-index:2;
+}
+.parent{
+background: red;
+width: 200px;
+height: 200px;
+position: absolute;
+z-index: 1;
+}
+.grandparent{
+background: blue;
+width: 300px;
+height: 300px;
+z-index: 0;
+} */
+
+
+
+
+/* 
+exo 2
+.enfant{
+background-color: purple;
+width: 100px;
+height: 100px;
+position:fixed;
+bottom:0px;
+right: 0;
+z-index:2;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.parent{
+background: red;
+width: 200px;
+height: 200px;
+position: absolute;
+z-index: 1;
+}
+.grandparent{
+background: blue;
+width: 300px;
+height: 300px;
+z-index: 0;
+} */
+
+
+
+
+
+
+
+
+
+/* .petitenfant{
+    background-color: yellowgreen;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.squarre-purple{
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+  
+    }
+    .squarre-red{
+    background: red;
+    width: 200px;
+    height: 200px;
+    }
+    .squarre-blue{
+    background: blue;
+    width: 300px;
+    height: 300px;
+    } */
+
+
+/*     
+       .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    } */
+
+    /* 
+    * absolute permet d'enlever les divs de leur position de base dans le doc
+    * top et left bouge l'element a gauche et en haut par rapport a son parent 
+    *le tranform/translate va agir sur l'element lui meme par rapport a sa taille(haut et gauche) pour centrer lui meme au milieu de la page 
+    on met la class dans chaque div car il le fait par rapport a son parent ex : s'il fait 100px il bouge 50px et cela par rapport a son parent
+
+
+    correction: 
+    transform: translate(-50%,-50%); : Cette propriété déplace l'élément de 50% de sa propre largeur vers la gauche et de 50% de sa propre hauteur 
+    vers le haut. Cela corrige le décalage initial créé par top: 50%; et left: 50%;, qui positionne le coin supérieur gauche de l'élément au centre du parent.
+     Avec translate(-50%, -50%), le centre de l'élément lui-même est maintenant positionné au centre du parent.
+    */
+
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .centered {
+        display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    .petitenfant{
+        background-color: yellowgreen;
+        width: 50px;
+        height: 50px;
+        }
+    
+    .squarre-purple{
+        background-color: purple;
+        width: 100px;
+        height: 100px;
+      
+        }
+        .squarre-red{
+        background: red;
+        width: 200px;
+        height: 200px;
+        }
+        .squarre-blue{
+        background: blue;
+        width: 300px;
+        height: 300px;
+        }
+
+            
