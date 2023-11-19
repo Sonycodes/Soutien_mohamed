@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header class="bg-beige">
+    <header class="bg-beige d-flex">
        <img src="assets/logo-barber.png" alt="logo" class="logo">
         <div class="searchbar"></div>
     </header>
 
-    <nav class="bg-beige">
-        <ul>
+    <nav class="bg-beige d-flex">
+        <ul class="d-flex">
             <li><a href="">Accueil</a></li>
             <li><a href="">Produits</a></li>
             <li><a href="">Tarif</a></li>
@@ -23,36 +23,37 @@
         <img src="assets/moustache.png" alt="moustache" class="moustache">
     </nav>
     <div class="baniere">
-       <img src="assets/bandeau.jpg-min.jpg" alt="baniere">
-        <div class="bouton"></div>
+       <img class="baniereimg" src="assets/bandeau.jpg-min.jpg" alt="baniere">
+        <div class="bouton bg-blue t-white"></div>
     </div>
 
     <section class="presentation">
-        <h1></h1>
+        <h1>Présentation</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe itaque excepturi mollitia esse, ea dolores sequi quisquam nisi 
             laborum nesciunt in suscipit unde reprehenderit veniam modi exercitationem fuga culpa error.</p>
     </section>
 
     <section>
-        <h1></h1>
-        <div class="services">
+        <h1>Nos services</h1>
+        <div class="services d-flex">
             <div class="service 1">
                 <img src="assets/Babier-min.jpeg" alt="barbier1">
-                <div class="bouton"></div>
+                <div class="bouton bg-blue"></div>
             </div>
             <div class="service 2">
                 <img src="assets/Barbier_2-min.jpeg" alt="Barbier_2">
-                <div class="bouton"></div>
+                <div class="bouton bg-blue"></div>
             </div>
             <div class="service 3">
                 <img src="assets/Image entretien.jpg" alt="entretien">
-                <div class="bouton"></div>
+                <div class="bouton bg-blue t-white"></div>
             </div>
         </div>
     </section>
+    
     <footer>
-        <footer1 class="bg-beige">
-            <img src="assets/logo-barber.png" alt="">
+        <footer1 class="bg-beige d-flex">
+            <img src="assets/logo-barber.png" alt="logo" class="logo">
             <div class="nav"></div>
             <div class="conditions">
                 <p>Données personnelles et coockies</p>
@@ -67,7 +68,7 @@
                 <i class="fa-brands fa-facebook-f"></i>
             </div>
         </footer1>
-        <footer2>
+        <footer2 class="bg-blue t-white d-flex">
             <p>Copyright 2020</p>
             <p>Tous droigts réservés</p>
         </footer2>

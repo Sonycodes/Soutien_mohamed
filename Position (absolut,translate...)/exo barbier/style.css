@@ -5,7 +5,33 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Playfair Display', sans-serif;
+}
 
 .bg-beige{
     background-color: beige;
+}
+.bg-blue{
+    background-color: rgb(17, 75, 75);
+}
+
+t-white{
+    color: white;
+}
+.d-flex{
+display: flex;
+}
+
+.service img{
+    width: 368px;
+    height: 278px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.baniereimg{
+    width: 100vw;
 }
