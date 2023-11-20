@@ -23,6 +23,10 @@ t-white{
 display: flex;
 }
 
+.space-between{
+justify-content: space-between;
+}
+
 .service img{
     width: 368px;
     height: 278px;
@@ -35,3 +39,4 @@ display: flex;
 .baniereimg{
     width: 100vw;
 }
+
