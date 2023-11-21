@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Playfair Display', sans-serif;
+    overflow-x: hidden;
 }
 
 .bg-beige{
@@ -16,7 +17,7 @@ body{
     background-color: rgb(17, 75, 75);
 }
 
-t-white{
+.t-white{
     color: white;
 }
 .d-flex{
@@ -27,13 +28,34 @@ display: flex;
 justify-content: space-between;
 }
 
+.center{
+    align-items: center;
+
+}
+
+.centered {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    } 
+
+.relative{
+        position: relative;
+    }
+.absolute{
+    position: absolute;
+}
 .bottom-shaddow{
     box-shadow: 0 4px 2px -2px gray;
 }
 
+/* .text-center{
+    text-align: center;
+} */
+
 .service img{
-    width: 368px;
-    height: 278px;
+    width: 268px;
+    height: 178px;
 }
 
 .logo{
@@ -41,10 +63,74 @@ justify-content: space-between;
     height: 100px;
 }
 .baniereimg{
-    width: 100vw;
+  width:100vw;
+  height: 30vw;
 }
-
+.moustache{
+    width: 30px;
+    height: 10px;
+}
+.ban-container{
+    height: 30vh;
+    width:100vw;
+}
+.bouton_rdv{
+    position: relative;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 2px 2px rgb(27, 25, 25);
+     justify-content: center;
+}
+.bouton{
+    /* position: relative; */
+    width: 50px;
+    height: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 2px 2px gray;
+     justify-content: center;
+}
+.navbar{
+    height: 30px;
+    padding: 10px 150px 10px 100px;
+}
 .white_space{
     width: 100vw;
-    height: 20px;;
+    height: 20px;
+    object-fit: cover;
 }
+
+.searchbar{
+    justify-content: left;
+}
+.search{
+position: relative;
+transform: translatex(-100%);
+padding: 10px;
+
+}
+
+.textinput{
+position: absolute;
+ 
+border-radius: 5px;
+height: 23px;
+width: 200px;
+}
+ul li{
+    list-style: none;
+    padding-right: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+@media (max-width: 780px) {
+    .service img{
+        width: 168px;
+        height: 78px;
+    }
+  }
+

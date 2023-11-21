@@ -10,10 +10,15 @@
 <body>
     <header class="bg-beige d-flex space-between bottom-shaddow">
        <img src="assets/logo-barber.png" alt="logo" class="logo">
-        <div class="searchbar"></div>
+        <div class="searchbar center d-flex">
+            <input class="textinput" type="text">
+            <i class="fa fa-search search" aria-hidden="true"></i>
+        </div>
     </header>
-<div class="white_space bottom-shaddow"></div>
-    <nav class="bg-beige d-flex space-between">
+
+    <div class="navbandeau">
+<div class="white_space"></div>
+    <nav class=" navbar center bg-beige d-flex space-between">
         <ul class="d-flex">
             <li><a href="">Accueil</a></li>
             <li><a href="">Produits</a></li>
@@ -22,12 +27,14 @@
         </ul>
         <img src="assets/moustache.png" alt="moustache" class="moustache">
     </nav>
-    <div class="baniere">
-       <img class="baniereimg" src="assets/bandeau.jpg-min.jpg" alt="baniere">
-        <div class="bouton bg-blue t-white"></div>
+
+    <div class="ban-container relative">
+       <img class="baniereimg absolute" src="assets/bandeau.jpg-min.jpg" alt="baniere">
+       <div class="bouton_rdv bg-blue t-white absolute centered bottom-shaddow d-flex center">Prendre rendez-vous </div>
+    </div>
     </div>
 
-    <section class="presentation">
+    <section class="presentation" >
         <div class="title d-flex">
             <h1>Présentation</h1>
         </div>
